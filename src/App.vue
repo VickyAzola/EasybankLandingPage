@@ -54,7 +54,7 @@ import Mockups from '/images/image-mockups.png';
   justify-content: center;
   background-image: url('/images/bg-intro-mobile.svg');
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 120%;
   background-position: top -.6rem right;
 }
 
@@ -97,7 +97,7 @@ import Mockups from '/images/image-mockups.png';
   background-color: var(--VeryLightGray);
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 750px) {
   .heroMobile {
     display: none;
   }
@@ -164,9 +164,10 @@ import Mockups from '/images/image-mockups.png';
   } 
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1100px) {
   .hero-section {
     grid-template-columns: 1fr 1.3fr;
+    height: 38rem;
   }
 
   .title-section {
@@ -186,14 +187,15 @@ import Mockups from '/images/image-mockups.png';
   .heroDesktop {
     background-position: top -5rem right -11rem;
     background-size: 130% 101%;
+    height: 38rem;
   }
 
   .heroDesktop img {
-    margin-top: -4rem;
+    margin-top: -3rem;
     margin-right: -4rem;
     margin-bottom: 0;
     width: 35rem;
-    height: 39rem;
+    height: 40rem;
   }
 
   .whyChoose-section {
@@ -205,6 +207,7 @@ import Mockups from '/images/image-mockups.png';
   .hero-section {
     grid-template-columns: 1fr 1.4fr;
     column-gap: 1rem;
+    height: 45rem;
   }
 
   .title-section {
@@ -215,10 +218,13 @@ import Mockups from '/images/image-mockups.png';
   .heroDesktop {
     background-position: top -9rem right -10rem;
     background-size: 120% 111%;
+    height: 45rem;
   }
 
   .heroDesktop img {
     margin-top: -2.5rem;
+    width: 38rem;
+    height: 48rem;
   }
 
   .whyChoose-section {
