@@ -104,10 +104,10 @@ import Mockups from '/images/image-mockups.png';
 
   .hero-section {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: .8fr 1fr;
     column-gap: .5rem;
     overflow: hidden;
-    min-height: 35rem;
+    height: 35rem;
   }
 
   .title-section {
@@ -139,19 +139,22 @@ import Mockups from '/images/image-mockups.png';
     background-image: url('/images/bg-intro-desktop.svg');
     background-repeat: no-repeat;
     background-position: top  right -9.5rem;
-    background-size: 150%;
+    background-size: 140%;
+    height: 36rem;
   }
 
   .heroDesktop img {
     position: relative;
-    z-index: 1;
-    margin-top: -10rem;
+    z-index: 2;
+    margin-top: -5rem;
     margin-right: -10rem;
     margin-bottom: 5rem;
     width: 30rem;
   }
 
   .whyChoose-section {
+    position: relative;
+    z-index: 1;
     margin-top: -9rem;
     padding-inline: 4rem;
   }
@@ -189,11 +192,12 @@ import Mockups from '/images/image-mockups.png';
     margin-top: -4rem;
     margin-right: -4rem;
     margin-bottom: 0;
-    width: 37rem;
+    width: 35rem;
+    height: 39rem;
   }
 
   .whyChoose-section {
-    margin-top: -8rem;
+    margin-top: -7rem;
   }
 }
 

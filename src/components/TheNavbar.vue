@@ -61,7 +61,7 @@ const navLinks = [
     padding-inline: 1rem;
     position: fixed;
     top: 0; 
-    z-index: 2;
+    z-index: 3;
     width: 100%;
 }
 
@@ -74,7 +74,7 @@ const navLinks = [
 
 .logo-and-icon button {
     position: absolute;
-    z-index: 2;
+    z-index: 3;
     top: 0; 
     right: 0;
     padding: 1.5rem;
@@ -86,7 +86,7 @@ const navLinks = [
     width: 100%;
     position: absolute;
     left: 0;
-    z-index: 2;
+    z-index: 3;
 }
 
 .topNav ul {
@@ -97,7 +97,7 @@ const navLinks = [
     position: absolute;
     margin-inline: auto;
     inset-inline: 0;
-    z-index: 2;
+    z-index: 3;
     text-align: center;
     top: 2rem;
     border-radius: .3rem;
