@@ -38,7 +38,7 @@ const navLinks = [
             @click="menuOpen()" 
             :class="[open ? 'block' : 'hidden']" 
             aria-label="Top Navigation"
-            id="Top Navigation"
+            id="topNavigation"
         >
             <ul>
                 <li v-for="link in navLinks">
