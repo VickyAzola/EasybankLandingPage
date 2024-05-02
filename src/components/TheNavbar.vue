@@ -111,7 +111,7 @@ const navLinks = [
     display: none;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 700px) {
     .nav-header {
         height: 4rem;
         padding-inline: 2rem;

@@ -74,10 +74,12 @@ const cardInfo = [
 .whyChoose-title p  {
       font-size: .8rem;
       color: var(--GrayishBlue);
+      max-width: 20rem;
 }
 
 .card {
       margin: 2rem 0;
+      max-width: 20rem;
 }
 
 .card img {
@@ -95,7 +97,7 @@ const cardInfo = [
       color: var(--GrayishBlue);
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 700px) {
       .whyChoose  {
             padding: 3rem 0 2rem;
             display: flex;
@@ -117,9 +119,9 @@ const cardInfo = [
       }
 
       .card-container {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
+            width: 100%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
             column-gap: 2rem;
       }
 
@@ -147,7 +149,9 @@ const cardInfo = [
       }
 
       .card-container {
-            flex-wrap: nowrap;
+            display: flex;
+            justify-content: space-between;
+            column-gap: 2rem;
       }
 
       .card {
